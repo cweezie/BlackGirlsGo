@@ -1,18 +1,17 @@
 .body{
     background-color:#5C5C5C;
 }
-
 input {
     width: 100%;
     height: auto;
 }
-
 img{
-    width: 100%;
+    width: 85%;
     height: auto;
     text-align: center;
+    border: 8px #FFC857 solid;
+    margin: 5%;
 }
-
 #firsttitle{
     color: #FFC857;
     text-align:center;
@@ -20,35 +19,6 @@ img{
     font-family: 'Oswald', sans-serif;
     font-size:50px;
 }
-#firsttitle1{
-    color: #F45866;
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    font-size:50px;
-}
-#firsttitle2{
-    color: #4EFFEF;
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    font-size:50px;
-}
-#firsttitle3{
-    color: #2CA974;
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    font-size:50px;
-}
-#firsttitle4{
-    color: #57B8FF;
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    font-size:50px;
-}
-
 #titles{
     text-align:center;
     font-weight: bold;
@@ -56,67 +26,30 @@ img{
     color: #AE79C9;
     font-size:40px;
 }
-#titles2{
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    color: #AE79C9;
-    font-size:40px;
-}
-#titles3{
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    color: #AE79C9;
-    font-size:40px;
-}
-#titles4{
-    text-align:center;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    color: #AE79C9;
-    font-size:40px;
-}
-
 hr.style{    
     border-top: 5px solid  white;
     width:70%;
 }
-
 #pgh{
     color: white;
     text-align:justify;
     font-family: 'Open Sans', sans-serif;
     font-size:20px;
 }
-#list{
-    color: white;
-    text-align:justify;
-    font-family: 'Open Sans', sans-serif;
-    margin-left:20%;
-    font-size:20px;
-}
 a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    
 }
-
-a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 .previous {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.next {
-    background-color: #4CAF50;
+    background-color: #5C5C5C;
     color: white;
+    margin-left:13%; 
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
 }
 
 .round {
-    border-radius: 50%;
+    border-radius: 100%;
 }
