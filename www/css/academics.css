@@ -19,3 +19,13 @@
     margin-left:15%;
     font-size:20px;
 }
+.workimg {
+    border: 8px #FFC857 solid;
+    margin: 5%;
+}
+input {
+    color: black;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    background-color:;
+}
